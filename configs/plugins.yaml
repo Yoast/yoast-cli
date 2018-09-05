@@ -1,0 +1,65 @@
+Yoast SEO Free:
+  endpoint: wordpress-seo
+  option: A
+  dependencies:
+    - yoastseo.js
+    - yoast-components
+  buildable: true
+  mainfile: wp-seo.php
+
+Yoast SEO Premium:
+  endpoint: wordpress-seo-premium
+  option: B
+  dependencies:
+    - yoastseo.js
+    - yoast-components
+  buildable: true
+  mainfile: wp-seo-premium.php
+
+News SEO:
+  endpoint: wpseo-news
+  option: C
+  dependencies: []
+
+Video SEO:
+  endpoint: wpseo-video
+  option: D
+  dependencies:
+    - yoastseo.js
+    - yoast-components
+
+WooCommerce SEO:
+  endpoint: wpseo-woocommerce
+  option: E
+  dependencies:
+    - yoastseo.js
+    - yoast-components
+
+Local SEO:
+  endpoint: wordpress-seo-local
+  option: F
+  dependencies:
+    - yoastseo.js
+    - yoast-components
+
+Local for WooCommerce:
+  endpoint: wpseo-local-woocommerce
+  option: G
+  dependencies:
+    - yoastseo.js
+    - yoast-components
+
+Yoast Components:
+  endpoint: yoast-components
+  option: H
+  dependencies: []
+
+Yoast ACF Analysis:
+  endpoint: yoast-acf-analysis
+  option: I
+  dependencies: []
+
+Glue for Yoast SEO & AMP:
+  endpoint: yoastseo-amp
+  option: J
+  dependencies: []
